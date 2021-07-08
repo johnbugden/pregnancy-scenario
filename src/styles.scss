@@ -1,0 +1,86 @@
+@font-face {
+  font-family: fira;
+  src: url(assets/fonts/firasans.ttf) format('truetype');
+}
+
+vg-player, p, h3 {
+  font-family: 'fira';
+}
+
+hr {
+  color: #212529;
+}
+
+button {
+  font-family: 'fira' !important;
+}
+
+.jumbotron.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #eef0ff;
+
+  .btn-group-vertical {
+    margin: auto;
+  }
+
+  .response-buttons {
+    display: grid;
+  }
+}
+
+.btn-group-vertical>button {
+  border-radius: 5px !important;
+}
+
+html {
+  font-size: 1.5vw;
+}
+
+.btn-lg {
+  font-size: 1.05rem !important;
+}
+
+vg-player video {
+  background-color: white;
+}
+
+vg-player {
+  background-color: white !important;
+  position: absolute;
+}
+
+.player-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+app-main, app-introduction, app-end, app-credits {
+  width: 100%;
+  height: 100%;
+}
+
+.scene-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+* {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.overlay-text {
+  display: flex;
+  flex-direction: row;
+
+  span {
+    margin: auto;
+  }
+}
