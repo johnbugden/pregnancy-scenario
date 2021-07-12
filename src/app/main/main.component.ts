@@ -13,7 +13,7 @@ import { SceneModel, ResponseModel } from "../scenes/scenes-model";
   templateUrl: "./main.component.html",
 })
 export class MainComponent implements OnInit, OnDestroy {
-  title = "nursing-sim";
+  title = "pregnancy-scenario";
   api: VgApiService;
   autoPlay: false;
   lastVideoSource: string;

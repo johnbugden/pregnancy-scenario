@@ -4,23 +4,23 @@ export const scene4: SceneModel = {
   responses: [
     {
       response:
-        "On a scale of 0 to 10, with 0 being not at all ready and 10 being very ready, how ready are you to stop using drugs?",
+        "Well of course your baby is going to go through horrible withdrawals. They will be crying, shaking, and just plain miserable because of what you did.",
       codeMessage:
-        "The nurse is assessing the patient’s readiness to change behaviors as this will allow the nurse to meet the patient where they are at. The nurse can tailor their education to fit the needs of the patient as the nurse recognizes that any positive change is a step toward recovery. Since the patient is not ready to quit using drugs, it is important that the nurse understands what types of education should be provided to keep the patient as safe as possible.",
-      correct: true,
+        "This is blaming and shaming and not part of a therapeutic response.",
+      correct: false,
       src: "scene4/r1.m4v",
     },
     {
       response:
-        "It’s good that you came to the emergency room to get that abscess looked at before it got worse. Next time, you should come earlier so that the abscess won’t get so bad.",
+        "If you are on medication assisted treatment, your baby may experience withdrawal symptoms from the medication but the baby will receive treatment to make them comfortable. Your love and cuddling have been shown to be some of the best ways to help with the newborn’s withdrawal.",
       codeMessage:
-        "Although the nurse is praising the positive behavior of coming to the hospital, they are ending the statement with a condescending and patriarchal tone that may cause the patient to become defensive and resistant to treatment.",
-      correct: false,
+        "By being open and honest with the patient, the development of rapport can occur. The nurse is engaging in trauma informed care by supporting the patient in their decision making. The nurse acknowledges and responds honestly to the patient’s question but doesn’t shame or blame them. The patient is making statements that move them toward the next step in recovery.",
+      correct: true,
       src: "scene4/r2.m4v",
     },
     {
       response:
-        "There are a lot of detox and treatment centers that you can go to. When you hit rock bottom, you will learn that you can’t keep living like this.",
+        "There are a lot of people that can’t have a baby and if you love your baby, you will want to consider adoption or foster care until you get your life together.",
       codeMessage:
         "This is not a therapeutic response and does not meet the patient where they are at in their life. This response does not build rapport with the patient or recognize their level of motivation to change behaviors.",
       correct: false,
@@ -28,6 +28,6 @@ export const scene4: SceneModel = {
     },
   ],
   situation:
-    "The nurse has provided education to the patient about clean techniques for injecting, the importance of cleaning the skin, one use/one time syringe practice, and where to get free syringes. The nurse begins to talk to the patient about keeping safe, and where they are on wanting to change their behaviors around their drug use.",
+    "You have provided education to the patient about medications used during pregnancy for opioid dependence and the effects of marijuana, alcohol, and cocaine on the fetus. The patient asks about what happens to the newborn after delivery and if the “heroin withdrawals” will be as bad as when they quit “cold turkey”.",
   sceneId: 3,
 };

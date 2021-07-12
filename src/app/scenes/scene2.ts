@@ -4,30 +4,30 @@ export const scene2: SceneModel = {
   responses: [
     {
       response:
-        "Is it okay if we talk for a few minutes so I can learn more from you about your injection practice?",
+        "You look concerned. Are you worried about anything related to your period?",
       codeMessage:
-        "This approach allows the patient to decide if they want to talk about their drug use practice and also positions the patient as the person in the power position. This approach allows the patient to see that the nurse is interested in learning and hearing from the patient.",
+        "This approach allows the patient to decide if they want to talk about their reproductive health and puts the patient as the person in the position of power. This approach allows the patient to see that the nurse is interested in learning and hearing from the patient.",
       correct: true,
       src: "scene2/r1.m4v",
     },
     {
       response:
-        "I hope that you will remember how much your abscess hurts the next time you  decide to inject drugs.",
+        "If you don’t remember the date, I can just put anything down.",
       codeMessage:
-        "This is not a therapeutic response. This response does not demonstrate an understanding of substance use disorder and is a form of shaming the patient.",
+        "This is not a therapeutic response and is false documentation. By not acknowledging the patient’s uneasiness with the question and probing further, the health of the patient may be compromised.",
       correct: false,
       src: "scene2/r2.m4v",
     },
     {
       response:
-        "You know, we have a lot of really sick people in the hospital that need my attention.",
+        "It’s not a really big deal to answer a question about when your last period was-just tell me!",
       codeMessage:
-        "This is not a therapeutic response. This response does not demonstrate an understanding of substance use disorder and is a form of shaming the patient. The nurse is suggesting that the patient isn’t as sick as others in the hospital and doesn’t need to be there.",
+        "This is not a therapeutic response. This response is presumptive and judgmental and does not demonstrate an understanding of the patient’s uneasiness regarding the question. The patient will be less likely to be honest and open with the nurse.",
       correct: false,
       src: "scene2/r3.m4v",
     },
   ],
   situation:
-    "The nurse provides comfort treatment and checks in on the patient to see how they are doing. The patient appears to be more comfortable. The patient has visible injection marks on their arm in varying forms of healing as well as other reddened or bruised injection site marks.",
+    "You begin to ask questions around reproductive and sexual health. When you ask when the patient’s last menstrual period was, the client becomes visibly unsettled.",
   sceneId: 1,
 };

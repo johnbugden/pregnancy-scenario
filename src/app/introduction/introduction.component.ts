@@ -30,12 +30,7 @@ export class IntroductionComponent implements OnInit, OnDestroy {
     this.api = api;
   }
   playVideo(): void {
-    this.overlayHidden = true;
-    this.api.getMediaById('introVideo').play();
-    this.videoEndedSubscription = this.api.getMediaById('introVideo').subscriptions.ended.subscribe(() => {
-      this.videoEndedSubscription.unsubscribe();
-      this.router.navigate(['/main']);
-    });
+    this.router.navigate(['/main']);
   }
 
   ngOnDestroy() {

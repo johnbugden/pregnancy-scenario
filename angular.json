@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "nursing-simulator-nonelectron": {
+    "pregnancy-scenario-nonelectron": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/nursing-simulator-nonelectron",
+            "outputPath": "dist/pregnancy-scenario-nonelectron",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "nursing-simulator-nonelectron:build"
+            "browserTarget": "pregnancy-scenario-nonelectron:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "nursing-simulator-nonelectron:build:production"
+              "browserTarget": "pregnancy-scenario-nonelectron:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nursing-simulator-nonelectron:build"
+            "browserTarget": "pregnancy-scenario-nonelectron:build"
           }
         },
         "test": {
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "nursing-simulator-nonelectron:serve"
+            "devServerTarget": "pregnancy-scenario-nonelectron:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "nursing-simulator-nonelectron:serve:production"
+              "devServerTarget": "pregnancy-scenario-nonelectron:serve:production"
             }
           }
         },
@@ -131,7 +131,7 @@
       }
     }
   },
-  "defaultProject": "nursing-simulator-nonelectron",
+  "defaultProject": "pregnancy-scenario-nonelectron",
   "cli": {
     "analytics": false
   }

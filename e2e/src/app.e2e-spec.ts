@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('nursing-simulator-nonelectron app is running!');
+    expect(await page.getTitleText()).toEqual('pregnancy-scenario-nonelectron app is running!');
   });
 
   afterEach(async () => {

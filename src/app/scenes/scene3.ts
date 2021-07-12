@@ -4,30 +4,30 @@ export const scene3: SceneModel = {
   responses: [
     {
       response:
-        "Thank you for sharing your barriers with me. Can you talk me through how you prepare your drugs, and how you are injecting so I can get a better sense of how I can help you to decrease your risk of getting an abscess?",
+        "You should have done this when you first suspected you were pregnant, but you absolutely need to stop using drugs now before you hurt your baby any more than you already have!",
       codeMessage:
-        "This is a therapeutic response that comes from a harm reduction approach. The nurse is not insisting on abstinence, rather wants to learn from the patient about their injection practice as a way to identify risky steps in the process. This approach builds rapport and promotes positive change in the patient’s drug use behaviors.",
-      correct: true,
+        "This is not a therapeutic response. Shaming the patient is not helpful and causes damage to the relationship.  Pregnant individuals who are dependent on drugs should not stop using abruptly as this may cause seizures to the fetus, a miscarriage, premature birth, or death of the fetus. Abrupt cessation of drug use is dangerous and contraindicated.",
+      correct: false,
       src: "scene3/r1.m4v",
     },
     {
       response:
-        "What you are doing isn’t going to stop you from getting abscesses. You need to use a new syringe every time.",
+        "You can’t raise a baby while using drugs. You know that after you give birth, they are going to take your baby away from you.",
       codeMessage:
-        "This is not a therapeutic response and doesn’t reinforce to the patient that they are being heard. The patient already identified their barriers and the nurse did not work with the patient to decrease their risks by exploring other options or safer ways to inject.",
+        "This is not a therapeutic response and is assumptive on the nurse’s part. Removal of the newborn from parental care is based on a number of factors.",
       correct: false,
       src: "scene3/r2.m4v",
     },
     {
       response:
-        "Your arms are a mess. You do know that you are damaging your veins and will keep getting infections if you keep doing drugs.",
+        "Thank you for sharing that you are pregnant. I would like permission to share this information with your health care team so that we are making sure that your antibiotic is safe to use during pregnancy. It is important that you don’t abruptly stop using drugs because it can be harmful to the baby. There are medications that you can get started on that are safe for you and the baby so that you don’t go through withdrawal. If you are okay with it, I’d like to get someone to help you with this.",
       codeMessage:
-        "This is not a therapeutic response. The nurse is demonstrating stigmatizing and condescending behaviors. This approach not only damages the nurse/patient relationship but also has a negative impact on the patient’s mental well-being.",
-      correct: false,
+        "This response opens the door to communication and education that is nonjudgmental and safer for the patient and fetus. The nurse recognizes that pregnancy is a pivotal event that has been shown to move the parent toward treatment and recovery.",
+      correct: true,
       src: "scene3/r3.m4v",
     },
   ],
   situation:
-    'The nurse is sitting next to the patient examining their injection sites. The patient reports that they often use the same syringe "until it hurts too much to use because I can’t afford to buy new ones on the street" and,  “I know I am not supposed to, but sometimes I will use someone else’s syringe,  but I always make sure to wipe it on my shirt first before I use it.',
+    'The patient admits that she is pregnant and had been isolating herself to avoid anyone asking questions. She states that she “wants to stop using drugs all together” and has tried “quitting cold turkey” a few times since she found out she was pregnant.',
   sceneId: 2,
 };

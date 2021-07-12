@@ -4,29 +4,29 @@ export const scene1: SceneModel = {
   responses: [
     {
       response:
-        "Why are you yelling at me? If you didn’t inject drugs than this wouldn’t have happened",
-      codeMessage: "This is a stigmatizing response. Try again.",
+        "When was your last period?",
+      codeMessage: "Although the question is important, the manner in which the question is asked doesn’t allow the patient to understand why the question is being asked.",
       correct: false,
       src: "scene1/r1.m4v",
     },
     {
       response:
-        "There isn’t anything that I can do for you. You know that you can’t have opioids. We don’t give opioids for abscesses",
+        "You probably don’t know this question, but when was your last period?",
       codeMessage:
-        "This is a non-therapeutic response. Non opioid and non-pharmacological interventions could be used such as warm compresses, NSAIDS, and acetaminophen. This response may also result in the patient not seeking care the next time it is needed.",
+        "This is a non-therapeutic response. This question is judgmental and impacts the nurse’s ability to engage in an honest discussion with the client.",
       correct: false,
       src: "scene1/r2.m4v",
     },
     {
       response:
-        "I can see that you are hurting. Can you tell me about your pain and I can see what I can do to help you?",
+        "For this next set of questions, is it okay if I ask you about your menstrual cycle, and other questions related to sexual health? We ask all patients these questions as part of our admission assessment. Knowing this information allows us to care for you the best way we can.",
       codeMessage:
-        "Nurse performs PQRST and administers NSAID and provides patient with a warm compress. This is a therapeutic response that acknowledges the patient’s discomfort and seeks to relieve the distress.",
+        "By asking permission to ask sensitive questions, the nurse is developing a rapport and allows the client to make decisions regarding the assessment.",
       correct: true,
       src: "scene1/r3.m4v",
     },
   ],
   situation:
-    "The nurse is caring for a 22 year old person admitted for an abscess on their forearm. The patient has been injecting drugs for the past 2 years and admits to using marijuana, alcohol, heroin, and cocaine. Their forearm is red and swollen and they just arrived to the emergency department 45 minutes ago. The CNA reports to you that the patient wants to see the nurse. You are entering the room to see the patient.",
+    "You are caring for a 22 year old female patient admitted for an abscess on their forearm. The patient has been injecting drugs for the past 2 years and admits to using marijuana and heroin, and occasionally cocaine and alcohol. They have been admitted to the hospital for antibiotic treatment and you are getting ready to complete the admission assessment. You have reached the part of the assessment where you are asking about the last menstrual period and if the patient is pregnant.",
   sceneId: 0
 };
