@@ -8,7 +8,7 @@ export const scene5: SceneModel = {
       codeMessage:
         "The nurse is maintaining an open and honest relationship with the patient by preparing them for the changes that commonly occur during pregnancy while on medication assisted treatment.",
       correct: true,
-      src: "scene5/r1.m4v",
+      src: "scene5/r1.mp4",
     },
     {
       response:
@@ -16,7 +16,7 @@ export const scene5: SceneModel = {
       codeMessage:
         "The nurse’s statement doesn’t promote discussion about the patient’s way of keeping safe if they experience cravings or do relapse. This is a missed opportunity to assess the patient’s risk factors and to provide harm reduction education.",
       correct: false,
-      src: "scene5/r2.m4v",
+      src: "scene5/r2.mp4",
     },
     {
       response:
@@ -24,7 +24,7 @@ export const scene5: SceneModel = {
       codeMessage:
         "This is not a therapeutic message. The nurse is inaccurate in their statement about replacing one drug for another. This statement does nothing to build rapport and instead damages the relationship between the patient and health care providers.",
       correct: false,
-      src: "scene5/r3.m4v",
+      src: "scene5/r3.mp4",
     },
   ],
   situation:

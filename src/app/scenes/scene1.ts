@@ -7,7 +7,7 @@ export const scene1: SceneModel = {
         "When was your last period?",
       codeMessage: "Although the question is important, the manner in which the question is asked doesn’t allow the patient to understand why the question is being asked.",
       correct: false,
-      src: "scene1/r1.m4v",
+      src: "scene1/r1.mp4",
     },
     {
       response:
@@ -15,7 +15,7 @@ export const scene1: SceneModel = {
       codeMessage:
         "This is a non-therapeutic response. This question is judgmental and impacts the nurse’s ability to engage in an honest discussion with the client.",
       correct: false,
-      src: "scene1/r2.m4v",
+      src: "scene1/r2.mp4",
     },
     {
       response:
@@ -23,7 +23,7 @@ export const scene1: SceneModel = {
       codeMessage:
         "By asking permission to ask sensitive questions, the nurse is developing a rapport and allows the client to make decisions regarding the assessment.",
       correct: true,
-      src: "scene1/r3.m4v",
+      src: "scene1/r3.mp4",
     },
   ],
   situation:

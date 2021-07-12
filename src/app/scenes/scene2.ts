@@ -8,7 +8,7 @@ export const scene2: SceneModel = {
       codeMessage:
         "This approach allows the patient to decide if they want to talk about their reproductive health and puts the patient as the person in the position of power. This approach allows the patient to see that the nurse is interested in learning and hearing from the patient.",
       correct: true,
-      src: "scene2/r1.m4v",
+      src: "scene2/r1.mp4",
     },
     {
       response:
@@ -16,7 +16,7 @@ export const scene2: SceneModel = {
       codeMessage:
         "This is not a therapeutic response and is false documentation. By not acknowledging the patient’s uneasiness with the question and probing further, the health of the patient may be compromised.",
       correct: false,
-      src: "scene2/r2.m4v",
+      src: "scene2/r2.mp4",
     },
     {
       response:
@@ -24,7 +24,7 @@ export const scene2: SceneModel = {
       codeMessage:
         "This is not a therapeutic response. This response is presumptive and judgmental and does not demonstrate an understanding of the patient’s uneasiness regarding the question. The patient will be less likely to be honest and open with the nurse.",
       correct: false,
-      src: "scene2/r3.m4v",
+      src: "scene2/r3.mp4",
     },
   ],
   situation:

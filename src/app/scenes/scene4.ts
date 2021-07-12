@@ -8,7 +8,7 @@ export const scene4: SceneModel = {
       codeMessage:
         "This is blaming and shaming and not part of a therapeutic response.",
       correct: false,
-      src: "scene4/r1.m4v",
+      src: "scene4/r1.mp4",
     },
     {
       response:
@@ -16,7 +16,7 @@ export const scene4: SceneModel = {
       codeMessage:
         "By being open and honest with the patient, the development of rapport can occur. The nurse is engaging in trauma informed care by supporting the patient in their decision making. The nurse acknowledges and responds honestly to the patient’s question but doesn’t shame or blame them. The patient is making statements that move them toward the next step in recovery.",
       correct: true,
-      src: "scene4/r2.m4v",
+      src: "scene4/r2.mp4",
     },
     {
       response:
@@ -24,7 +24,7 @@ export const scene4: SceneModel = {
       codeMessage:
         "This is not a therapeutic response and does not meet the patient where they are at in their life. This response does not build rapport with the patient or recognize their level of motivation to change behaviors.",
       correct: false,
-      src: "scene4/r3.m4v",
+      src: "scene4/r3.mp4",
     },
   ],
   situation:

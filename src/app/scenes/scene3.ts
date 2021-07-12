@@ -8,7 +8,7 @@ export const scene3: SceneModel = {
       codeMessage:
         "This is not a therapeutic response. Shaming the patient is not helpful and causes damage to the relationship.  Pregnant individuals who are dependent on drugs should not stop using abruptly as this may cause seizures to the fetus, a miscarriage, premature birth, or death of the fetus. Abrupt cessation of drug use is dangerous and contraindicated.",
       correct: false,
-      src: "scene3/r1.m4v",
+      src: "scene3/r1.mp4",
     },
     {
       response:
@@ -16,7 +16,7 @@ export const scene3: SceneModel = {
       codeMessage:
         "This is not a therapeutic response and is assumptive on the nurse’s part. Removal of the newborn from parental care is based on a number of factors.",
       correct: false,
-      src: "scene3/r2.m4v",
+      src: "scene3/r2.mp4",
     },
     {
       response:
@@ -24,7 +24,7 @@ export const scene3: SceneModel = {
       codeMessage:
         "This response opens the door to communication and education that is nonjudgmental and safer for the patient and fetus. The nurse recognizes that pregnancy is a pivotal event that has been shown to move the parent toward treatment and recovery.",
       correct: true,
-      src: "scene3/r3.m4v",
+      src: "scene3/r3.mp4",
     },
   ],
   situation:
