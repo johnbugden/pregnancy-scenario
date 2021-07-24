@@ -65,6 +65,13 @@ app-main, app-introduction, app-end, app-credits {
 .overlay-text span {
   margin: auto;
 }
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
 @charset "UTF-8";
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
